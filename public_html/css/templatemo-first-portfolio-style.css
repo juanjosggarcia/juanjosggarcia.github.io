@@ -503,7 +503,7 @@ strong {
 .hero-text {
   position: relative;
   z-index: 22;
-  top: 70px;
+  top: 64px;
 }
 
 .hero-image-wrap {
@@ -521,11 +521,14 @@ strong {
 }
 
 .hero-image {
-  position: absolute;
+  position: relative;
   z-index: 22;
   top: 0;
   width: 100%;
-  min-width: 550px;
+  margin: auto;
+  display: block;
+  max-height: 320px;
+  max-width: 320px;
 }
 
 .hero svg {
