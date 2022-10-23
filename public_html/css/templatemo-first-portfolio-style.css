@@ -559,7 +559,7 @@ strong {
   border-right: 1px solid var(--border-color);
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
-  min-width: 140px;
+  min-width: 250px;
   margin-right: 10px;
   padding: 13px 30px;
   display: inline-block;
@@ -649,7 +649,7 @@ strong {
 .services-thumb-up {
   position: relative;
   bottom: 50px;
-  margin-bottom: -50px;
+  margin-bottom: 24px;
 }
 
 .services-thumb:hover {
@@ -1185,5 +1185,8 @@ strong {
   .hero-image {
     min-width: inherit;
   }
+  
+  
+
 }
 
