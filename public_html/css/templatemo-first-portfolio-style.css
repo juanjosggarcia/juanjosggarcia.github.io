@@ -521,14 +521,13 @@ strong {
 }
 
 .hero-image {
-  position: relative;
+  position: absolute;
   z-index: 22;
-  top: 0;
-  width: 100%;
+  top: -50px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
   margin: auto;
-  display: block;
-  max-height: 320px;
-  max-width: 320px;
 }
 
 .hero svg {
@@ -562,9 +561,9 @@ strong {
   border-right: 1px solid var(--border-color);
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
-  min-width: 250px;
+  min-width: 230px;
   margin-right: 10px;
-  padding: 13px 30px;
+  padding: 13px 20px;
   display: inline-block;
 }
 
@@ -613,7 +612,7 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 120px;
+	height: 110px;
 }
 
 .clients-image {
@@ -1000,7 +999,8 @@ strong {
   }
 
   .hero-image {
-    min-width: 650px;
+    min-width: 600px;
+    min-height: 600px
   }
   
   .hero-title,

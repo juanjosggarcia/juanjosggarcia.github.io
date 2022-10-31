@@ -469,7 +469,7 @@ progress{
 }
 .img-fluid{
     max-width:100%;
-    height:auto
+    height:max-content
 }
 .img-thumbnail{
     padding:.25rem;
@@ -588,7 +588,7 @@ progress{
 }
 .col-4{
     flex:0 0 auto;
-    width:33.33333333%
+    width:auto
 }
 .col-5{
     flex:0 0 auto;
@@ -1047,7 +1047,7 @@ progress{
     }
     .col-lg-2{
         flex:0 0 auto;
-        width:16.66666667%;
+        width:auto;
         alignment-adjust: auto;
     }
     .col-lg-3{
