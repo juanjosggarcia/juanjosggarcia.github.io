@@ -236,6 +236,14 @@ strong {
   color: var(--white-color);
 }
 
+.navbar-icon:hover {
+  background: var(--white-color);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
 .form-check-icon {
   color: var(--secondary-color);
 }
