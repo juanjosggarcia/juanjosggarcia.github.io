@@ -469,7 +469,7 @@ progress{
 }
 .img-fluid{
     max-width:100%;
-    height:max-content;
+    height:auto;
     object-fit: contain;
 }
 .img-thumbnail{
